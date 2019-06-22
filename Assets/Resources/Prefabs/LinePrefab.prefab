@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6103928113372456867}
   - component: {fileID: 749699952501894058}
   m_Layer: 8
-  m_Name: GameObject
+  m_Name: LinePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,9 +69,7 @@ LineRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 1}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.1
@@ -142,6 +140,4 @@ EdgeCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -747.41296, y: 180.37688}
-  - {x: -747.209, y: 180.37688}
+  m_Points: []

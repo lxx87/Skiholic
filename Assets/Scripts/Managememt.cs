@@ -7,6 +7,9 @@ public class Managememt : MonoBehaviour
 {
     public int choise = 0;
     [SerializeField] private Text[] achieveTexts;
+    [SerializeField] private DrawLine drawLine;
+    private bool start = false;
+    private bool click = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +29,34 @@ public class Managememt : MonoBehaviour
     private void OnDestroy()
     {
         Time.timeScale = 1;
+    }
+
+    public void setClick(bool c)
+    {
+        click = c;
+    }
+
+    public bool isClick()
+    {
+        return click;
+    }
+
+    private void OnGUI()
+    {
+        if(!start)
+        {
+            GUIStyle style = new GUIStyle
+            {
+                fontSize = 18,
+            };
+            string text = "辅助轨道长度: " + drawLine.getLength() + "m";
+            Rect position = new Rect(5, Screen.height - 20, 1, 1);
+            GUI.Label(position, text.ToString(), style);
+        }
+    }
+
+    public void startGame()
+    {
+        start = true;
     }
 }
