@@ -47,10 +47,10 @@ public class Managememt : MonoBehaviour
         {
             GUIStyle style = new GUIStyle
             {
-                fontSize = 18,
+                fontSize = 30,
             };
             string text = "辅助轨道长度: " + drawLine.getLength() + "m";
-            Rect position = new Rect(5, Screen.height - 20, 1, 1);
+            Rect position = new Rect(10, Screen.height - 40, 1, 1);
             GUI.Label(position, text.ToString(), style);
         }
     }

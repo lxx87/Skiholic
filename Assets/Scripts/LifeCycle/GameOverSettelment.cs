@@ -28,6 +28,7 @@ public class GameOverSettelment : MonoBehaviour
             succeedPanel.SetActive(true);
             settelmentPanel.SetActive(true);
             succeed();
+            stopAchievementJudge();
             enabled = false;
         }
         if(gameStateManager.isDeathOrFail())
@@ -35,6 +36,7 @@ public class GameOverSettelment : MonoBehaviour
             Debug.Log("GameSettelment: fail");
             failPanel.SetActive(true);
             settelmentPanel.SetActive(true);
+            stopAchievementJudge();
             enabled = false;
         }
     }
@@ -56,11 +58,30 @@ public class GameOverSettelment : MonoBehaviour
         BaseAchievement[] achievements = GetComponents<BaseAchievement>();
         for(int i=0;i<achievements.Length;i++)
         {
-            if(achievements[i].done())
+            descriptions[i].text = achievements[i].getDescription();
+        }
+        StartCoroutine(showAnimation());
+
+        IEnumerator showAnimation()
+        {
+            for (int i = 0; i < achievements.Length; i++)
             {
                 stars[i].SetActive(true);
+                if (!achievements[i].done())
+                {
+                    stars[i].GetComponent<Animator>().SetBool("show", false);
+                }
+                yield return new WaitForSeconds(1.0f);
             }
-            descriptions[i].text = achievements[i].getDescription();
+        }
+    }
+
+    private void stopAchievementJudge()
+    {
+        BaseAchievement[] achievements = GetComponents<BaseAchievement>();
+        for (int i = 0; i < achievements.Length; i++)
+        {
+            achievements[i].enabled = false;
         }
     }
 }

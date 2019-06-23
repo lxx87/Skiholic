@@ -30,7 +30,6 @@ public class ScoreCaculate : MonoBehaviour
             GetComponent<Animator>().SetBool("Fail", true);
             deathorFail = true;
             enabled = false;
-            Debug.Log("You Are Fail");
         }
 
     }
@@ -48,7 +47,6 @@ public class ScoreCaculate : MonoBehaviour
         {
             deathorFail = true;
             enabled = false;
-            Debug.Log("You Are Fail");
             GetComponent<Animator>().SetBool("Death", true);
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         }
@@ -63,7 +61,6 @@ public class ScoreCaculate : MonoBehaviour
         {
             win = true;
             enabled = false;
-            Debug.Log("You Are Win");
         }
     }
 
