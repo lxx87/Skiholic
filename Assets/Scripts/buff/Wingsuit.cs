@@ -27,14 +27,17 @@ public class Wingsuit : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 0.2f, LayerMask.GetMask("Ground"));
         if (hit.collider != null)//着地
         {
-            Debug.Log("Reset Gravity ");
+            Debug.Log("Reset Gravity to "+ realGravityScale);
             destroyItself();
         }
     }
 
     private void destroyItself()
     {
-        GetComponent<Rigidbody2D>().gravityScale = realGravityScale;
+        if(GetComponent<Rigidbody2D>().gravityScale - gravityScale > 0.01f)//滑翔伞开启成功
+        {
+            GetComponent<Rigidbody2D>().gravityScale = realGravityScale;
+        }
         Destroy(this);
     }
 }

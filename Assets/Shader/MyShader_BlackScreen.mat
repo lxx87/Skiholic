@@ -28,6 +28,6 @@ Material:
     - _Center_Y: 0.5
     - _ChangeFloat: 1
     - _OutterRadius: 0.15
-    - _Radius: 0
+    - _Radius: 1.5856463
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

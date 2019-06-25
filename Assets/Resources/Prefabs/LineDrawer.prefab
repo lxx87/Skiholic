@@ -43,4 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31a0d5311fb3ebc40bf5de36031cbc48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 3824513917442581370, guid: f28e1012e25b58f46b285c704350bbe7, type: 3}
+  linePrefab: {fileID: 3824513917442581370, guid: f28e1012e25b58f46b285c704350bbe7,
+    type: 3}
+  cameraZ: -10
+  managememt: {fileID: 0}
