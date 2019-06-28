@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: 9ff24a66bf300f544be944697d467805
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3515954987031878550
+    second: MainAtlasTextureHD_0
+  - first:
+      213: -2810477289164256629
+    second: MainAtlasTextureHD_1
+  - first:
+      213: 5499930704335989898
+    second: MainAtlasTextureHD_2
+  - first:
+      213: -8284091239574251248
+    second: MainAtlasTextureHD_3
+  - first:
+      213: -2607336300083459927
+    second: MainAtlasTextureHD_4
+  - first:
+      213: -8231933263595041541
+    second: MainAtlasTextureHD_5
+  - first:
+      213: -2953694035018706764
+    second: MainAtlasTextureHD_6
+  - first:
+      213: -205171469846000534
+    second: MainAtlasTextureHD_7
+  - first:
+      213: 3820396497506265416
+    second: MainAtlasTextureHD_8
+  - first:
+      213: 1977736002221622068
+    second: MainAtlasTextureHD_9
+  - first:
+      213: -643468486095425343
+    second: MainAtlasTextureHD_10
+  - first:
+      213: 7219113289965687993
+    second: MainAtlasTextureHD_11
+  - first:
+      213: -5203406955878792198
+    second: MainAtlasTextureHD_12
+  - first:
+      213: -461933406863157170
+    second: MainAtlasTextureHD_13
+  - first:
+      213: -979161056529317131
+    second: MainAtlasTextureHD_14
+  - first:
+      213: 5841657791288836023
+    second: MainAtlasTextureHD_15
+  - first:
+      213: 1208283350697584468
+    second: MainAtlasTextureHD_16
+  - first:
+      213: -3644676325478414035
+    second: MainAtlasTextureHD_17
+  - first:
+      213: -5158125058581071940
+    second: MainAtlasTextureHD_18
+  - first:
+      213: -7544434809578936287
+    second: MainAtlasTextureHD_19
+  - first:
+      213: 8627574666441517783
+    second: MainAtlasTextureHD_20
+  - first:
+      213: -6122121561787788405
+    second: MainAtlasTextureHD_21
+  - first:
+      213: 5147324314372921648
+    second: MainAtlasTextureHD_22
+  - first:
+      213: -1647868734634143446
+    second: MainAtlasTextureHD_23
+  - first:
+      213: 5027627770276630326
+    second: MainAtlasTextureHD_24
+  - first:
+      213: -4276389407034607819
+    second: MainAtlasTextureHD_25
+  - first:
+      213: -6441016403111230045
+    second: MainAtlasTextureHD_26
+  - first:
+      213: 1662091602326474469
+    second: MainAtlasTextureHD_27
+  - first:
+      213: 9048954212424071355
+    second: MainAtlasTextureHD_28
+  - first:
+      213: -7511126390619948389
+    second: MainAtlasTextureHD_29
+  - first:
+      213: 1153051162577231941
+    second: MainAtlasTextureHD_30
+  - first:
+      213: -3437174709029942035
+    second: MainAtlasTextureHD_31
+  - first:
+      213: 2779098877006768966
+    second: MainAtlasTextureHD_32
+  - first:
+      213: -7600351192643918613
+    second: MainAtlasTextureHD_33
+  - first:
+      213: -906486011488762465
+    second: MainAtlasTextureHD_34
+  - first:
+      213: -214798519504420513
+    second: MainAtlasTextureHD_35
+  - first:
+      213: -4208132475842916191
+    second: MainAtlasTextureHD_36
+  - first:
+      213: 8057429561064957219
+    second: MainAtlasTextureHD_37
+  - first:
+      213: 3935750925375939048
+    second: MainAtlasTextureHD_38
+  - first:
+      213: 5269965888967444502
+    second: MainAtlasTextureHD_39
+  - first:
+      213: 6356803230636749992
+    second: MainAtlasTextureHD_40
+  - first:
+      213: 1529299658639159762
+    second: MainAtlasTextureHD_41
+  - first:
+      213: 7668498948995066578
+    second: MainAtlasTextureHD_42
+  - first:
+      213: -8145737185672477974
+    second: MainAtlasTextureHD_43
+  - first:
+      213: 5090012957042800410
+    second: MainAtlasTextureHD_44
+  - first:
+      213: 2336236092302739051
+    second: MainAtlasTextureHD_45
+  - first:
+      213: -1971441759920236997
+    second: MainAtlasTextureHD_46
+  - first:
+      213: 8250714516617671108
+    second: MainAtlasTextureHD_47
+  - first:
+      213: 1426259335138586568
+    second: MainAtlasTextureHD_48
+  - first:
+      213: 2847314314929508526
+    second: MainAtlasTextureHD_49
+  - first:
+      213: 6593205828191631190
+    second: MainAtlasTextureHD_50
+  - first:
+      213: 2018047581372136143
+    second: MainAtlasTextureHD_51
+  - first:
+      213: -4368912915160511119
+    second: MainAtlasTextureHD_52
+  - first:
+      213: -7723892716863971710
+    second: MainAtlasTextureHD_53
+  - first:
+      213: -5391976896980388699
+    second: MainAtlasTextureHD_54
+  - first:
+      213: 2452025966141357162
+    second: MainAtlasTextureHD_55
+  - first:
+      213: -8143645363206279948
+    second: MainAtlasTextureHD_56
+  - first:
+      213: -3668907667695352896
+    second: MainAtlasTextureHD_57
+  - first:
+      213: -7207007188779597586
+    second: MainAtlasTextureHD_58
+  - first:
+      213: -613102618642766375
+    second: MainAtlasTextureHD_59
+  - first:
+      213: 2744208402821485381
+    second: MainAtlasTextureHD_60
+  - first:
+      213: -3768923868936230083
+    second: MainAtlasTextureHD_61
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e8a921caeae3645936f194dd0d0438
+      internalID: 3515954987031878550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 486
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00baed7b4090034f82a88531ae5789e
+      internalID: -2810477289164256629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 486
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cfb10fabf69f046b0158229240b5bc
+      internalID: 5499930704335989898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 462
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b59e4eb779cb4d9929764fc6f37d2
+      internalID: -8284091239574251248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 462
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877b339aa29742746a381be45a9bd72a
+      internalID: -2607336300083459927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 482
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b5fdfbd81b6b42a508be4d5d5a57b
+      internalID: -8231933263595041541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094966858656fac44a450dde051a1aa6
+      internalID: -2953694035018706764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 437
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c62996a0f8e555478a9f1b415439bf6
+      internalID: -205171469846000534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 381
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275688ab1c5dc7f4a8d1cc6d3951364b
+      internalID: 3820396497506265416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 442
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a713237b80b1824e896d0c82aa0f9da
+      internalID: 1977736002221622068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 411
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d814d3d8e3dd84cb0010bcd8bd6ee9
+      internalID: -643468486095425343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 389
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14afad1b06627e545a1ce99b44e419e9
+      internalID: 7219113289965687993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486a7c4b27c3e9c49ba98b7a4fb68f90
+      internalID: -5203406955878792198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_13
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 363
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5d26b1dde407343a9a99cdb0bc5ed5
+      internalID: -461933406863157170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb091dff2f04028478db4194fb83b874
+      internalID: -979161056529317131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 351
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312437b2fe6139b4c888020d6fbe5abd
+      internalID: 5841657791288836023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 279
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffadc7d973cce4b4080c771b0f673e9c
+      internalID: 1208283350697584468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 362
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb8af76db29be4eb9f506a06f01b97
+      internalID: -3644676325478414035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 359
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cd02a36c06b664ea6b653e2b3d2745
+      internalID: -5158125058581071940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 315
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1ef52a43bfdec439ae474c04e14a70
+      internalID: -7544434809578936287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 318
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed6856248dfb6241b319fa8c6b8a150
+      internalID: 8627574666441517783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 333
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4b92a164eb2c540904b11486092dad
+      internalID: -6122121561787788405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 322
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e9db4df578c4840a9b12168a1cf98c
+      internalID: 5147324314372921648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 278
+        width: 7
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34a9c16229cae747884dc468ce10dff
+      internalID: -1647868734634143446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_24
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 278
+        width: 7
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb17978a33c58db4ea9abfb1485d4435
+      internalID: 5027627770276630326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 287
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67456200996ab6b4084c7c717efd2355
+      internalID: -4276389407034607819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 287
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634998dc482d6041a82b0635f07d4a1
+      internalID: -6441016403111230045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_27
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 287
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb50e98a22073140a09b4df486e6243
+      internalID: 1662091602326474469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_28
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 279
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e59c9b55b6a048aeba52489a1f352
+      internalID: 9048954212424071355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2929e22f713ea7b4599dc16cb30e42a6
+      internalID: -7511126390619948389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_30
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 181
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4544bfc74a534ad44b1d78dca510d731
+      internalID: 1153051162577231941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_31
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 238
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6aee6ff68e983429371ffb203c2b02
+      internalID: -3437174709029942035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 238
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838dd016fa97573418e352b0a77141b3
+      internalID: 2779098877006768966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 238
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f3cfe6969cfc14bac68435825b1e3a
+      internalID: -7600351192643918613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_34
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 238
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d285b60e5636b64b9e3bbd8291ae58e
+      internalID: -906486011488762465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_35
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 238
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132eb2c4cfa9f1749b4b4bfff2253c5d
+      internalID: -214798519504420513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_36
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 248
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db66cfdf5f658e4483a7d904d91a5b2
+      internalID: -4208132475842916191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 257
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8362349a322d02f4486b79ac58b2e4b2
+      internalID: 8057429561064957219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_38
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 238
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c4a65269d279245b05c5c376af1ab9
+      internalID: 3935750925375939048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_39
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 238
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a30d852e102a03409feedf3af186cb1
+      internalID: 5269965888967444502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_40
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 181
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4945b319a436b54f8b4bcf4746843ed
+      internalID: 6356803230636749992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_41
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 183
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b856c7f06f2c8fc4da327c153df6a634
+      internalID: 1529299658639159762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 181
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8874396853b645ad3fe50f1d5c1a8
+      internalID: 7668498948995066578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_43
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 196
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4936a868f87774408c33491ea81aa37
+      internalID: -8145737185672477974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 183
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8147d59e3be4eaa47b1c727695a382fe
+      internalID: 5090012957042800410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_45
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 181
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b99c791d1c8a874b8fee0c711fe9fa9
+      internalID: 2336236092302739051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_46
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 181
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b21bc616797d44fa9476adeb36942d
+      internalID: -1971441759920236997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_47
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 181
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c250f9fe09dc84bb2a2bdbfcd9fafe
+      internalID: 8250714516617671108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_48
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 181
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0be9227aeac7a44b518b1319b64923
+      internalID: 1426259335138586568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a07f62c5356394abf331fe66c42b36
+      internalID: 2847314314929508526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_50
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 131
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdc6fc7e6a624469c6f52424a0c618
+      internalID: 6593205828191631190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_51
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 131
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a8e9bef6b7e0243b91e4d66fab8582
+      internalID: 2018047581372136143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_52
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 144
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9156b333ebc62da42887de5b520dbcf7
+      internalID: -4368912915160511119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_53
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 115
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255490694bbba77428e2a57f33b2473d
+      internalID: -7723892716863971710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_54
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 154
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea42b636fb1980f459b74a84dfae7eb3
+      internalID: -5391976896980388699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_55
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 153
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070492aea48eaac4bbc6aca89890c85a
+      internalID: 2452025966141357162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_56
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 106
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd5a87f5dbad594baae9039a64d346f
+      internalID: -8143645363206279948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_57
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531a2499f5701d34688001587484c9d7
+      internalID: -3668907667695352896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_58
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 115
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cb062545b783d4d8a14324bbabad80
+      internalID: -7207007188779597586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_59
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1afc8ad7a5a74793d51963e4c9023
+      internalID: -613102618642766375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_60
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bd5659acb272141ab5f8ef6981c662
+      internalID: 2744208402821485381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainAtlasTextureHD_61
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 89
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeed8734800a5034684f4a6d591d14f7
+      internalID: -3768923868936230083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4e857aebce4b9e4187ee832c4cdccbe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MyShader_BlackScreen
-  m_Shader: {fileID: 4800000, guid: 6c9ca814de117af4ab0ca077d892d461, type: 3}
-  m_ShaderKeywords: 
+  m_Name: Custom_SpriteDiffuse
+  m_Shader: {fileID: 4800000, guid: c8b5ec9a8e729074ca0df7882185f9d0, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -24,10 +24,5 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Center_X: 1
-    - _Center_Y: 0.5
-    - _ChangeFloat: 1
-    - _OutterRadius: 0.15
-    - _Radius: 1.5294889
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _AlphaCutOff: 0.05
+    m_Colors: []
