@@ -45,11 +45,11 @@ public class ScoreCaculate : MonoBehaviour
         int layer = collision.gameObject.layer;
         if (collision.gameObject.layer == LayerMask.NameToLayer("Roadblock"))
         {
-            deathorFail = true;
+            
             enabled = false;
             GetComponent<Animator>().SetBool("Death", true);
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-            //GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300);
+            charactrterDeath();
+            deathorFail = true;
         }
 
         if (layer == LayerMask.NameToLayer("Coin"))
@@ -78,5 +78,24 @@ public class ScoreCaculate : MonoBehaviour
     public int getCoinNum()
     {
         return coinNum;
+    }
+
+    private void charactrterDeath()
+    {
+        if (deathorFail)
+            return;
+        GetComponent<SkinnedMeshRenderer>().enabled = false;
+
+        transform.Find("555_extra").gameObject.SetActive(true);
+        Transform groundCheck = transform.Find("GroundCheck");
+        Transform ceilingChecking = transform.Find("CeilingCheck");
+        Vector2 up = ceilingChecking.position - groundCheck.position;
+        GetComponent<Rigidbody2D>().AddForce(up.normalized * 600);
+
+        CapsuleCollider2D[] colliders = GetComponents<CapsuleCollider2D>();
+        for(int i=0;i<2;i++)
+        {
+            colliders[i].enabled = !colliders[i].enabled;
+        }
     }
 }

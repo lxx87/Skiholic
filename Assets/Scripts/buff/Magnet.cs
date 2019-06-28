@@ -14,9 +14,10 @@ public class Magnet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("init Magnet");
         coinMask = LayerMask.GetMask("Coin");
         effortPref = (GameObject)Resources.Load("Prefabs/manetEffort");
-        Invoke("destoryItself", duration);
+        //Invoke("destoryItself", duration);
         effort = GameObject.Instantiate(effortPref);
         effort.transform.parent = this.transform;
         effort.transform.localPosition = new Vector3(0, 0, -4);
