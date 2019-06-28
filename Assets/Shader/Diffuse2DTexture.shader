@@ -12,7 +12,7 @@
 		sampler2D _MainTex;
 
 	struct Input {
-		float2 uv_MainTex;
+		float2 uv_MainTex: TEXCOORD;
 	};
 
 	void surf(Input IN, inout SurfaceOutput o) {

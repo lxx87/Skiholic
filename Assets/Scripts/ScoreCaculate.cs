@@ -49,6 +49,7 @@ public class ScoreCaculate : MonoBehaviour
             enabled = false;
             GetComponent<Animator>().SetBool("Death", true);
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            //GetComponent<Rigidbody2D>().AddForce(Vector2.up * 300);
         }
 
         if (layer == LayerMask.NameToLayer("Coin"))

@@ -90,4 +90,9 @@ public class BuffBtn : MonoBehaviour
         gameObject.SetActive(false);
         Destroy(this);
     }
+
+    private void OnDestroy()
+    {
+        
+    }
 }
