@@ -33,7 +33,7 @@ public class HomeBGM : MonoBehaviour
         }
         else if(this!= _instance)
         {
-            Destroy(gameObject);
+            //Destroy(_instance.gameObject);
         }
     }
     // Update is called once per frame

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Managememt : MonoBehaviour
 {
     public int choise = 0;
+    [SerializeField]private GameObject mainCamera;
     [SerializeField] private Text[] achieveTexts;
     [SerializeField] private DrawLine drawLine;
     private bool start = false;
@@ -18,6 +19,8 @@ public class Managememt : MonoBehaviour
         {
             achieveTexts[i].text = achievements[i].getDescription();
         }
+        pauseHomeBGM();
+        Invoke("playBGM", 1.0f);
     }
 
     // Update is called once per frame
@@ -29,6 +32,7 @@ public class Managememt : MonoBehaviour
     private void OnDestroy()
     {
         Time.timeScale = 1;
+        HomeBGM.instance.gameObject.GetComponent<AudioSource>().Play();
     }
 
     public void setClick(bool c)
@@ -58,5 +62,17 @@ public class Managememt : MonoBehaviour
     public void startGame()
     {
         start = true;
+    }
+
+    private void pauseHomeBGM()
+    {
+        Debug.Log("1111");
+        HomeBGM.instance.gameObject.GetComponent<AudioSource>().Pause();
+    }
+
+
+    private void playBGM()
+    {
+        mainCamera.GetComponent<AudioSource>().Play();
     }
 }
