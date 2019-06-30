@@ -55,7 +55,8 @@ public class ScoreCaculate : MonoBehaviour
         if (layer == LayerMask.NameToLayer("Coin"))
         {
             this.coinNum++;
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<CoinHit>().hitCharacter();
+            //Destroy(collision.gameObject);
         }
 
         if (layer == LayerMask.NameToLayer("End"))
@@ -90,7 +91,7 @@ public class ScoreCaculate : MonoBehaviour
         Transform groundCheck = transform.Find("GroundCheck");
         Transform ceilingChecking = transform.Find("CeilingCheck");
         Vector2 up = ceilingChecking.position - groundCheck.position;
-        GetComponent<Rigidbody2D>().AddForce(up.normalized * 600);
+        GetComponent<Rigidbody2D>().AddForce(up.normalized * GetComponent<Rigidbody2D>().velocity.magnitude);
 
         CapsuleCollider2D[] colliders = GetComponents<CapsuleCollider2D>();
         for(int i=0;i<2;i++)
