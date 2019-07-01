@@ -35,7 +35,7 @@ public class GameOverSettelment : MonoBehaviour
         {
             Debug.Log("GameSettelment: fail");
             failPanel.SetActive(true);
-            settelmentPanel.SetActive(true);
+            //settelmentPanel.SetActive(true);
             stopAchievementJudge();
             enabled = false;
         }

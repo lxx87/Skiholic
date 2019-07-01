@@ -4,40 +4,70 @@ using UnityEngine;
 
 public class Wingsuit : MonoBehaviour
 {
-    public float gravityScale = 0.0f;
+    public float gravityScale = 0.006f;
     private float realGravityScale;
     private Transform m_GroundCheck;
+    private GameObject effortPref;
+    private GameObject effort;
+    public float duration = 3.0f;//持续时间
+    private bool wingsuitOn = false;
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("wingsuit on");
         m_GroundCheck = transform.Find("GroundCheck");
-        RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 0.2f, LayerMask.GetMask("Ground"));
-        if (hit.collider == null)//在空中
-        {
-            Debug.Log("Set Gravity to Zero");
-            this.realGravityScale = GetComponent<Rigidbody2D>().gravityScale;
-            GetComponent<Rigidbody2D>().gravityScale = this.gravityScale;
-        }
-        
+        effortPref = (GameObject)Resources.Load("Prefabs/wingsuitPrefab");
+        effort = GameObject.Instantiate(effortPref);
+        effort.transform.parent = this.transform;
+        effort.transform.localPosition = new Vector3(-0.2699996f, 1.02f, 0);
+        effort.transform.localScale = new Vector3(0.05435295f, 0.05435295f, 1);
+        Invoke("stop", duration);
+
+        realGravityScale = GetComponent<Rigidbody2D>().gravityScale;
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 0.2f, LayerMask.GetMask("Ground"));
-        if (hit.collider != null)//着地
+        bool g = ground();
+        if (!g && !wingsuitOn)//在空中且滑翔伞未打开
         {
-            Debug.Log("Reset Gravity to "+ realGravityScale);
-            destroyItself();
+            GetComponent<Rigidbody2D>().gravityScale = this.gravityScale;
+            wingsuitOn = true;
+        }
+        if(g && wingsuitOn)//不在空中且滑翔伞已打开，即从空中回落至地面
+        {
+            stop();
+        }
+    }
+
+
+    private bool ground()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 0.2f, LayerMask.GetMask("Ground"));
+        return hit.collider != null;
+    }
+
+
+    private void stop()
+    {
+        Debug.Log("wingsuit off");
+        if(this!=null)
+        {
+            Debug.Log("wingsuit off: true");
+            effort.GetComponent<Animator>().SetBool("disappear", true);
+            if(wingsuitOn)
+            {
+                GetComponent<Rigidbody2D>().gravityScale = realGravityScale;
+            }
+            Destroy(this);
+            Invoke("destroyItself", 1f);
         }
     }
 
     private void destroyItself()
     {
-        if(GetComponent<Rigidbody2D>().gravityScale - gravityScale > 0.01f)//滑翔伞开启成功
-        {
-            GetComponent<Rigidbody2D>().gravityScale = realGravityScale;
-        }
-        Destroy(this);
+        Destroy(effort);
+        
     }
 }

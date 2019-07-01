@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScoreCaculate : MonoBehaviour
 {
+
     private int idelFPS = 0;
     private Rigidbody2D rigi;
     private bool win = false;

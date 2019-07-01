@@ -17,6 +17,7 @@ public class CoinHit : MonoBehaviour
     {
         Debug.Log("Hit coin");
         particle.Play();
+        GetComponent<CircleCollider2D>().enabled = false;
         coin.SetActive(false);
         Invoke("destoryItself", 1);
     }

@@ -13,7 +13,7 @@ public class charMoveForeward : MonoBehaviour
     void Start()
     {
         m_Character = GetComponent<PlatformerCharacter2D>();
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(300, 0));
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(200, 0));
         //GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
     }
 
