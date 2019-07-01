@@ -16,11 +16,11 @@ public class Magnet : MonoBehaviour
     {
         Debug.Log("init Magnet");
         coinMask = LayerMask.GetMask("Coin");
-        effortPref = (GameObject)Resources.Load("Prefabs/manetEffort");
-        //Invoke("destoryItself", duration);
+        effortPref = (GameObject)Resources.Load("Prefabs/Magnet");
+        Invoke("destoryItself", duration);
         effort = GameObject.Instantiate(effortPref);
         effort.transform.parent = this.transform;
-        effort.transform.localPosition = new Vector3(0, 0, -4);
+        effort.transform.localPosition = new Vector3(0, 0, 0.5f);
         effort.transform.localScale = new Vector3(radius, radius, 1);
     }
 

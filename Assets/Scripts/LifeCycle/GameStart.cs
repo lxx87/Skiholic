@@ -12,7 +12,7 @@ public class GameStart : MonoBehaviour
     {
         canvas.transform.Find("buffBtn").gameObject.SetActive(true);
         charactor.GetComponent<charMoveForeward>().enabled = true;
-        charactor.GetComponent<Rigidbody2D>().gravityScale = 1;
+        charactor.GetComponent<Rigidbody2D>().gravityScale = 0.5f;
         charactor.GetComponent<ScoreCaculate>().enabled = true;
         canvas.GetComponent<Props>().clearProps();
         canvas.GetComponent<MoveAndDraw>().clearMoveDraw();

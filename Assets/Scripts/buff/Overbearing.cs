@@ -9,11 +9,17 @@ public class Overbearing : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        effortPref = (GameObject)Resources.Load("Prefabs/overbearingEffort");
+        
+        effortPref = (GameObject)Resources.Load("Prefabs/Shield");
         effort = GameObject.Instantiate(effortPref);
         effort.transform.parent = this.transform;
-        effort.transform.localPosition = new Vector3(0, 0, -4);
-        //effort.transform.localScale = new Vector3(radius, radius, 1);
+        effort.transform.localPosition = new Vector3(0, 0, 0.5f);
         effort.transform.rotation = this.transform.rotation;
+        Invoke("destoryItself", 3);
+    }
+
+    void destoryItself()
+    {
+        Destroy(this);
     }
 }
