@@ -27,6 +27,8 @@ public class MoveAndDraw : MonoBehaviour
         this.golineDrawer.GetComponent<DrawLine>().enabled = false;
         this.gocamera.GetComponent<CameraMove>().enabled = true;
 
+        this.moveButton.GetComponent<Image>().sprite = move_first;
+        this.drawButton.GetComponent<Image>().sprite = draw_second;
         moveButton.onClick.AddListener(delegate ()
         {
             choosed = 1;

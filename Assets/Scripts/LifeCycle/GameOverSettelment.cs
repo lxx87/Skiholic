@@ -34,8 +34,13 @@ public class GameOverSettelment : MonoBehaviour
         if(gameStateManager.isDeathOrFail())
         {
             Debug.Log("GameSettelment: fail");
+            AudioClip audioClip = Resources.Load<AudioClip>("failed");
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.clip = audioClip;
+            audioSource.Play();
+
             failPanel.SetActive(true);
-            //settelmentPanel.SetActive(true);
+            settelmentPanel.SetActive(true);
             stopAchievementJudge();
             enabled = false;
         }
@@ -43,6 +48,11 @@ public class GameOverSettelment : MonoBehaviour
 
     private void succeed()
     {
+        
+        AudioClip audioClip = Resources.Load<AudioClip>("succeed");
+        AudioSource audioSource = GetComponent<AudioSource>();
+        audioSource.clip = audioClip;
+        audioSource.Play();
         GameObject temp = succeedPanel.transform.Find("StarGet").gameObject;
         GameObject[] stars = new GameObject[3];
         stars[0] = temp.transform.Find("Star1").gameObject;

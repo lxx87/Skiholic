@@ -39,7 +39,7 @@ public class CameraMove : MonoBehaviour
             Touch touch = Input.touches[0];
             if (touch.phase == TouchPhase.Moved)
             {
-                move(0-touch.deltaPosition.x * Time.deltaTime, 0-touch.deltaPosition.y * Time.deltaTime);
+                move(0-touch.deltaPosition.x * Time.deltaTime * 0.5f, 0-touch.deltaPosition.y * Time.deltaTime * 0.5f);
             }
         }
     }

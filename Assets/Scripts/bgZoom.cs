@@ -24,7 +24,7 @@ public class bgZoom : MonoBehaviour
         Vector3 nowScale = this.NML.transform.localScale;
 
         RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 0.2f, LayerMask.GetMask("Ground"));
-        if (hit.collider != null)
+        if (hit.collider == null)
         {
             if (nowScale.x > (originNmlScale.x-maxZoom))
             {

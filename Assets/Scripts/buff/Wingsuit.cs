@@ -17,10 +17,10 @@ public class Wingsuit : MonoBehaviour
         Debug.Log("wingsuit on");
         m_GroundCheck = transform.Find("GroundCheck");
         effortPref = (GameObject)Resources.Load("Prefabs/wingsuitPrefab");
-        effort = GameObject.Instantiate(effortPref);
-        effort.transform.parent = this.transform;
-        effort.transform.localPosition = new Vector3(-0.2699996f, 1.02f, 0);
-        effort.transform.localScale = new Vector3(0.05435295f, 0.05435295f, 1);
+        effort = GameObject.Instantiate(effortPref, this.transform);
+        /*effort.transform.parent = this.transform;
+        effort.transform.localPosition = new Vector3(-0.2699996f, 1.02f, 0);*/
+        /*effort.transform.localScale = new Vector3(0.05435295f, 0.05435295f, 1);*/
         Invoke("stop", duration);
 
         realGravityScale = GetComponent<Rigidbody2D>().gravityScale;

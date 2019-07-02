@@ -13,7 +13,7 @@ public class GetLevel1 : MonoBehaviour
 
     public void ClickLevel1()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
     // Update is called once per frame
     void Update()

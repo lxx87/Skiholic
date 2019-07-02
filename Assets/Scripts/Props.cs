@@ -36,7 +36,7 @@ public class Props : MonoBehaviour
         string path = Application.persistentDataPath + "/" + m_FileName;
         if (!File.Exists(path))
         {
-            strs = new string[] { "1", "1", "1", "1" };
+            strs = new string[] { "1", "1", "1", "0" };
             File.Create(path).Dispose();
             File.WriteAllLines(path, strs);
         }

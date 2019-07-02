@@ -46,7 +46,7 @@ public class ScoreCaculate : MonoBehaviour
         int layer = collision.gameObject.layer;
         if (collision.gameObject.layer == LayerMask.NameToLayer("Roadblock"))
         {
-            
+            collision.gameObject.GetComponent<RoadblockHit>().hit();
             enabled = false;
             GetComponent<Animator>().SetBool("Death", true);
             charactrterDeath();
