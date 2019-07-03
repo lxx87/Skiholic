@@ -7,35 +7,35 @@ public class ItemChoice : MonoBehaviour
 {
     // Start is called before the first frame update
     public TextAsset readtxt;
-    GameObject text3;
-    GameObject text4;
-    //GameObject i3;
-    //GameObject i4;
-    Button item3;
-    Button item4;
+    GameObject i3, i4, l3, l4;
     int number;
     void Start()
     {
-        text3 = GameObject.Find("Introduction3");
-        text4 = GameObject.Find("Introduction4");
-        item3 = GameObject.Find("I3").GetComponent<Button>();
-        item4 = GameObject.Find("I4").GetComponent<Button>();
-        item3.interactable = false;
-        item4.interactable = false;
-        text3.SetActive(false);
-        text4.SetActive(false);
+        i3 = GameObject.Find("I3");
+        i4 = GameObject.Find("I4");
+        l3 = GameObject.Find("lock3");
+        l4 = GameObject.Find("lock4");
+
+        i3.SetActive(false);
+        i4.SetActive(false);
+        l3.SetActive(false);
+        l4.SetActive(false);
+
         number = int.Parse(readtxt.text);
         if(number>=0&&number<3)
         {
+            l3.SetActive(true);
+            l4.SetActive(true);
         }
         if (number>=3)
         {
-            text3.SetActive(true);
-            item3.interactable = true;
+            i3.SetActive(true);
+            l3.SetActive(false);
+            l4.SetActive(true);
             if(number>=5)
             {
-                text4.SetActive(true);
-                item4.interactable = true;
+                i4.SetActive(true);
+                l4.SetActive(false);
             }
         }
     }

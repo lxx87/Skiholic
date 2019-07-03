@@ -8,6 +8,8 @@ public class GameStart : MonoBehaviour
     public GameObject charactor;
     [SerializeField]
     private GameObject pauseButton;
+
+    [SerializeField] private GameObject starNum;
     public void begin()
     {
         canvas.transform.Find("buffBtn").gameObject.SetActive(true);
@@ -17,7 +19,7 @@ public class GameStart : MonoBehaviour
         canvas.GetComponent<Props>().clearProps();
         canvas.GetComponent<MoveAndDraw>().clearMoveDraw();
         pauseButton.SetActive(true);
-
+        starNum.SetActive(true);
         startAchievementJudge();
     }
 

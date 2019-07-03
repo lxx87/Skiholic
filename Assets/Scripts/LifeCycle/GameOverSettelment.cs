@@ -77,11 +77,11 @@ public class GameOverSettelment : MonoBehaviour
             for (int i = 0; i < achievements.Length; i++)
             {
                 stars[i].SetActive(true);
-                if (!achievements[i].done())
+                if (achievements[i].done())
                 {
-                    stars[i].GetComponent<Animator>().SetBool("show", false);
+                    stars[i].GetComponent<Animator>().SetBool("show", true);
                 }
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(0.5f);
             }
         }
     }
