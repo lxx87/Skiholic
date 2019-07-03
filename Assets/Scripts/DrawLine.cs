@@ -16,6 +16,8 @@ public class DrawLine : MonoBehaviour
     private bool begin = false;
     private float length = 0;
     private float currLength = 0;
+    public float maxLength = 20;
+    public float lineWidth = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +85,8 @@ public class DrawLine : MonoBehaviour
     {
         line = Instantiate(linePrefab, linePrefab.transform.position, transform.rotation);
         lineRenderer = line.GetComponent<LineRenderer>();
+        lineRenderer.startWidth = lineWidth;
+        lineRenderer.endWidth = lineWidth;
         edgeCollider2d = line.GetComponent<EdgeCollider2D>();
         originWorldPoints.Clear();
         lines.Add(line);
@@ -111,6 +115,10 @@ public class DrawLine : MonoBehaviour
         Vector3[] positions = new Vector3[lineRenderer.positionCount];
         lineRenderer.GetPositions(positions);
         length += caculateLength(positions, lineRenderer.positionCount);
+        if(length>maxLength)
+        {
+            clearLast();
+        }
         currLength = 0;
         Vector2[] p = new Vector2[positions.Length];
         for (int i = 0; i < positions.Length; i++)
@@ -151,6 +159,14 @@ public class DrawLine : MonoBehaviour
         if (temp < 0.1f)
             temp = 0;
         return temp;
+    }
+
+    public float getLeftLength()
+    {
+        float len = maxLength - length;
+        if (len < 0.1f)
+            len = 0;
+        return len;
     }
 
     public void clearAll()

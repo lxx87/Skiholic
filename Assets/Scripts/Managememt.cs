@@ -44,7 +44,7 @@ public class Managememt : MonoBehaviour
     {
         return click;
     }
-
+    
     private void OnGUI()
     {
         if(!start)
@@ -53,12 +53,12 @@ public class Managememt : MonoBehaviour
             {
                 fontSize = 30,
             };
-            string text = "辅助轨道长度: " + drawLine.getLength() + "m";
+            string text = "剩余辅助轨道长度: " + string.Format("{0:0.00}", drawLine.getLeftLength()) + "m";
             Rect position = new Rect(10, Screen.height - 40, 1, 1);
             GUI.Label(position, text.ToString(), style);
         }
     }
-
+    
     public void startGame()
     {
         start = true;

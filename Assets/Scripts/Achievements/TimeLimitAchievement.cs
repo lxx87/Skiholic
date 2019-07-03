@@ -54,6 +54,6 @@ public class TimeLimitAchievement : BaseAchievement
 
     public override string getDescription()
     {
-        return "在" + (int)mostTime + "内完成比赛";
+        return "在" + (int)mostTime + "秒内完成比赛";
     }
 }

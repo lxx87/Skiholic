@@ -8,13 +8,13 @@ public class GameStart : MonoBehaviour
     public GameObject charactor;
     [SerializeField]
     private GameObject pauseButton;
-
+    public float characterGravityScale = 0.6f;
     [SerializeField] private GameObject starNum;
     public void begin()
     {
         canvas.transform.Find("buffBtn").gameObject.SetActive(true);
         charactor.GetComponent<charMoveForeward>().enabled = true;
-        charactor.GetComponent<Rigidbody2D>().gravityScale = 0.6f;
+        charactor.GetComponent<Rigidbody2D>().gravityScale = characterGravityScale;
         charactor.GetComponent<ScoreCaculate>().enabled = true;
         canvas.GetComponent<Props>().clearProps();
         canvas.GetComponent<MoveAndDraw>().clearMoveDraw();

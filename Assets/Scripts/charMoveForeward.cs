@@ -9,11 +9,12 @@ public class charMoveForeward : MonoBehaviour
     public float speed = 0.02f;
     private PlatformerCharacter2D m_Character;
     private float currVelocity = 0;
+    public float force = 100;
     // Start is called before the first frame update
     void Start()
     {
         m_Character = GetComponent<PlatformerCharacter2D>();
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(100, 0));
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(force, 0));
         //GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
     }
 
