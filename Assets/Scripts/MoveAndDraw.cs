@@ -10,7 +10,7 @@ public class MoveAndDraw : MonoBehaviour
     public GameObject gocamera;
     public GameObject golineDrawer;
 
-    public GameObject mob;
+    //public GameObject mob;
     public GameObject drb;
 
     //public Sprite move_first;
@@ -67,7 +67,7 @@ public class MoveAndDraw : MonoBehaviour
 
     public void clearMoveDraw()
     {
-        this.mob.SetActive(false);
+        ///this.mob.SetActive(false);
         this.drb.SetActive(false);
     }
 
