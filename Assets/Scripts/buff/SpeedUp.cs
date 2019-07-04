@@ -5,7 +5,7 @@ using UnityEngine;
 public class SpeedUp : MonoBehaviour
 {
     
-    public float power = 600.0f;
+    public float power = 30.0f;
     private GameObject trail;
     // Start is called before the first frame update
     void Start()

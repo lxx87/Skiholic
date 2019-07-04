@@ -8,7 +8,7 @@ public class GameStart : MonoBehaviour
     public GameObject charactor;
     [SerializeField]
     private GameObject pauseButton;
-    public float characterGravityScale = 0.6f;
+    public float characterGravityScale = 0.8f;
     [SerializeField] private GameObject starNum;
     public void begin()
     {
