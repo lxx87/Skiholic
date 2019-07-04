@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 8268647b8a6385b4d9f7cb396cd68b35
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6839590971598161685
+    second: "\u96EA\u5C71_0"
+  - first:
+      213: 2714351722385130263
+    second: "\u96EA\u5C71_1"
+  - first:
+      213: -7221359209798837180
+    second: "\u96EA\u5C71_2"
+  - first:
+      213: 2780973737516559165
+    second: "\u96EA\u5C71_3"
+  - first:
+      213: -6415134526077564219
+    second: "\u96EA\u5C71_4"
+  - first:
+      213: -2849849861775006510
+    second: "\u96EA\u5C71_5"
+  - first:
+      213: 7072549548555832098
+    second: "\u96EA\u5C71_6"
+  - first:
+      213: 7921331167051412687
+    second: "\u96EA\u5C71_7"
+  - first:
+      213: -4857269632455154936
+    second: "\u96EA\u5C71_8"
+  - first:
+      213: -7271120858758749107
+    second: "\u96EA\u5C71_9"
+  - first:
+      213: 707670432649383259
+    second: "\u96EA\u5C71_10"
+  - first:
+      213: -1333806462899162389
+    second: "\u96EA\u5C71_11"
+  - first:
+      213: -2421019075522931163
+    second: "\u96EA\u5C71_12"
+  - first:
+      213: -9025911232082011235
+    second: "\u96EA\u5C71_13"
+  - first:
+      213: 1100249903080199614
+    second: "\u96EA\u5C71_14"
+  - first:
+      213: 288641200165307920
+    second: "\u96EA\u5C71_15"
+  - first:
+      213: -5465574949159334302
+    second: "\u96EA\u5C71_16"
+  - first:
+      213: -5380391309624120383
+    second: "\u96EA\u5C71_17"
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +94,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +123,73 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\u96EA\u5C71_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2329
+        height: 4262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4cada5258577841bbbe649d41b4d12
+      internalID: -6839590971598161685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u96EA\u5C71_1"
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 0
+        width: 4365
+        height: 4262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d444e48a0aa8a545938f3f63a65982e
+      internalID: 2714351722385130263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
