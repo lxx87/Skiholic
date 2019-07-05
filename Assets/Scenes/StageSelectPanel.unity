@@ -963,8 +963,8 @@ GameObject:
   - component: {fileID: 832957455}
   - component: {fileID: 832957454}
   - component: {fileID: 832957453}
-  - component: {fileID: 832957456}
   - component: {fileID: 832957452}
+  - component: {fileID: 832957456}
   m_Layer: 0
   m_Name: Level2
   m_TagString: Untagged
@@ -1055,7 +1055,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 832957456}
-        m_MethodName: ClickLevel1
+        m_MethodName: ClickLevel2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 832957450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83fd14bae5bad3a48a2caff68a4d0b05, type: 3}
+  m_Script: {fileID: 11500000, guid: 783156c114b73e04ea1ce93501daa610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &838463215
@@ -2081,6 +2081,7 @@ GameObject:
   - component: {fileID: 1402672099}
   - component: {fileID: 1402672098}
   - component: {fileID: 1402672097}
+  - component: {fileID: 1402672101}
   m_Layer: 0
   m_Name: Level1
   m_TagString: Untagged
@@ -2105,7 +2106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.34162965, y: 0.4448707}
   m_AnchorMax: {x: 0.47214818, y: 0.6245647}
-  m_AnchoredPosition: {x: -224.39001, y: -0.000022888184}
+  m_AnchoredPosition: {x: -224.39003, y: -0.000022888184}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1402672097
@@ -2170,7 +2171,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1402672101}
         m_MethodName: ClickLevel1
         m_Mode: 1
         m_Arguments:
@@ -2220,6 +2221,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402672095}
   m_CullTransparentMesh: 0
+--- !u!114 &1402672101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402672095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83fd14bae5bad3a48a2caff68a4d0b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1507908178
 GameObject:
   m_ObjectHideFlags: 0
