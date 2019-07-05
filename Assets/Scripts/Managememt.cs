@@ -51,10 +51,10 @@ public class Managememt : MonoBehaviour
         {
             GUIStyle style = new GUIStyle
             {
-                fontSize = 30,
+                fontSize = 40,
             };
-            string text = "剩余辅助轨道长度: " + string.Format("{0:0.00}", drawLine.getLeftLength()) + "m";
-            Rect position = new Rect(10, Screen.height - 40, 1, 1);
+            string text = "Remain: " + string.Format("{0:0.00}", drawLine.getLeftLength()*10) + "m";
+            Rect position = new Rect(30, Screen.height - 60, 1, 1);
             GUI.Label(position, text.ToString(), style);
         }
     }

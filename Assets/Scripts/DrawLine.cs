@@ -91,7 +91,7 @@ public class DrawLine : MonoBehaviour
         originWorldPoints.Clear();
         lines.Add(line);
         begin = true;
-        Debug.Log("Line++: " + lines.Count);
+        
     }
 
     private void drawMove(Vector3 position)
@@ -114,11 +114,19 @@ public class DrawLine : MonoBehaviour
         lineRenderer.Simplify(0.04f);
         Vector3[] positions = new Vector3[lineRenderer.positionCount];
         lineRenderer.GetPositions(positions);
-        length += caculateLength(positions, lineRenderer.positionCount);
+        float len = caculateLength(positions, lineRenderer.positionCount);
+        length += len;
+        if (len<0.1f)
+        {
+            clearLast();
+            return;
+        }
         if(length>maxLength)
         {
             clearLast();
+            return;
         }
+        Debug.Log("Line++: " + lines.Count+" "+len);
         currLength = 0;
         Vector2[] p = new Vector2[positions.Length];
         for (int i = 0; i < positions.Length; i++)

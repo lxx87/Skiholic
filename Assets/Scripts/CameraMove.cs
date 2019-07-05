@@ -22,7 +22,6 @@ public class CameraMove : MonoBehaviour
     public float zoomSpeed = 3f;
     public float moveSpeed = 0.5f;
 
-
     private Vector2[] lastPositions = new Vector2[2];//上一帧两个手指的位置
 
     // Start is called before the first frame update
@@ -62,14 +61,17 @@ public class CameraMove : MonoBehaviour
             zoom(Time.deltaTime * softZommSpeed);*/
 
         /*input for android*/
-        /*if (Input.touchCount == 1)
+        if (Input.touchCount == 1)
         {
             Touch touch = Input.touches[0];
             if (touch.phase == TouchPhase.Moved)
             {
-                move(0-touch.deltaPosition.x * Time.deltaTime * 0.5f, 0-touch.deltaPosition.y * Time.deltaTime * 0.5f);
+                Vector2 movedDelta = Input.touches[0].deltaPosition;
+                float currSpeed = moveSpeed * mainCamera.orthographicSize * 0.2f;//平衡不同镜头大小情况下镜头移动的速度，避免镜头较小时镜头移动过快
+                move(0 - movedDelta.x * Time.deltaTime * currSpeed, 0 - movedDelta.y * Time.deltaTime * currSpeed);
+                //move(0-touch.deltaPosition.x * Time.deltaTime * 0.5f, 0-touch.deltaPosition.y * Time.deltaTime * 0.5f);
             }
-        }*/
+        }
 
         if (Input.touchCount > 1)
         {
@@ -77,15 +79,17 @@ public class CameraMove : MonoBehaviour
                 && Input.touches[1].phase == TouchPhase.Moved
                 && isMove(Input.touches[0].deltaPosition, Input.touches[1].deltaPosition))//双指同向移动，移动镜头
             {
-                Vector2 movedDelta = Vector2.Max(Input.touches[0].deltaPosition, Input.touches[1].deltaPosition);
-                move(0 - movedDelta.x * Time.deltaTime * moveSpeed, 0 - movedDelta.y * Time.deltaTime * moveSpeed);
+                /*Vector2 movedDelta = Vector2.Max(Input.touches[0].deltaPosition, Input.touches[1].deltaPosition);
+                float currSpeed = moveSpeed * mainCamera.orthographicSize * 0.2f;//平衡不同镜头大小情况下镜头移动的速度，避免镜头较小时镜头移动过快
+                move(0 - movedDelta.x * Time.deltaTime * currSpeed, 0 - movedDelta.y * Time.deltaTime * currSpeed);*/
             }
             else
             {
-                Vector2 currPosition1 = Input.touches[0].position;
-                Vector2 currPosition2 = Input.touches[1].position;
-                if (Input.touches[0].phase == TouchPhase.Moved || Input.touches[1].phase == TouchPhase.Moved)
+                
+                if (Input.touches[0].phase == TouchPhase.Moved || Input.touches[1].phase == TouchPhase.Moved)//双指反向移动，缩放镜头
                 {
+                    Vector2 currPosition1 = Input.touches[0].position;
+                    Vector2 currPosition2 = Input.touches[1].position;
                     if (!Enlarge(lastPositions[0], lastPositions[1], currPosition1, currPosition2))
                     {
                         zoom(zoomSpeed * Time.deltaTime * (Input.touches[0].deltaPosition.magnitude +
