@@ -40,6 +40,6 @@ public class FlyTimeAchievement : BaseAchievement
 
     public override string getDescription()
     {
-        return "腾空" + string.Format("{0:0.00}",baseFlyingTime) + "秒";
+        return "腾空" + string.Format("{0:0}",baseFlyingTime) + "秒";
     }
 }
