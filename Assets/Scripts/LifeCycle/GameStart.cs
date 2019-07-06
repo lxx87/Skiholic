@@ -12,7 +12,7 @@ public class GameStart : MonoBehaviour
     [SerializeField] private GameObject starNum;
     public void begin()
     {
-        canvas.transform.Find("buffBtn").gameObject.SetActive(true);
+        //canvas.transform.Find("buffBtn").gameObject.SetActive(true);
         charactor.GetComponent<charMoveForeward>().enabled = true;
         charactor.GetComponent<Rigidbody2D>().gravityScale = characterGravityScale;
         charactor.GetComponent<ScoreCaculate>().enabled = true;
