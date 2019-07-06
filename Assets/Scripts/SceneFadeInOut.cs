@@ -11,6 +11,7 @@ public class SceneFadeInOut : MonoBehaviour
     public float ChangeSpeed = 3f;  
     private float count;
     private Action action;
+    public bool showFadeIn = true;
     void Awake()
     {
         
@@ -18,7 +19,8 @@ public class SceneFadeInOut : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(fadeIn());
+        if(showFadeIn)
+            StartCoroutine(fadeIn());
     }
 
 
@@ -43,7 +45,7 @@ public class SceneFadeInOut : MonoBehaviour
     IEnumerator fadeOut()
     {
         material.SetFloat("_Radius", 1.5f);
-        while (material.GetFloat("_Radius") >= 0)
+        while (material.GetFloat("_Radius") >= -0.1f)
         {
             float change = 0;
             if(Time.timeScale>0.1f)

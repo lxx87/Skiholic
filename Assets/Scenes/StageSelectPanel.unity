@@ -1054,13 +1054,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 832957456}
-        m_MethodName: ClickLevel2
-        m_Mode: 1
+      - m_Target: {fileID: 1253617133}
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832957450}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 783156c114b73e04ea1ce93501daa610, type: 3}
   m_Name: 
@@ -1231,7 +1231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.9092223, y: 0.86538804}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 20.740173, y: 19.02948}
+  m_AnchoredPosition: {x: 20.740173, y: 19.02951}
   m_SizeDelta: {x: -2.000122, y: -8.981995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888103983
@@ -1755,6 +1755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: d06b746c2b41ce04ea648894a28ec5b1, type: 2}
   ChangeSpeed: 3
+  showFadeIn: 1
 --- !u!114 &1253617133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2171,13 +2172,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1402672101}
-        m_MethodName: ClickLevel1
-        m_Mode: 1
+      - m_Target: {fileID: 1253617133}
+        m_MethodName: LoadLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
