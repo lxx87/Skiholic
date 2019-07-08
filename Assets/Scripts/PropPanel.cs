@@ -11,6 +11,7 @@ public class PropPanel : MonoBehaviour
     private List<Button> activeBuffBtns = new List<Button>();
     [SerializeField] private GameObject character;
     private int choise = 0;
+    public float speedUpPower = 30.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,7 @@ public class PropPanel : MonoBehaviour
         string path = Application.persistentDataPath + "/" + m_FileName;
         if (!File.Exists(path))
         {
-            strs = new string[] { "1", "1", "1", "0" };
+            strs = new string[] { "1", "1", "1", "1" };
             File.Create(path).Dispose();
             File.WriteAllLines(path, strs);
         }
@@ -109,7 +110,9 @@ public class PropPanel : MonoBehaviour
                 buffBtns[choise].onClick.RemoveAllListeners();
                 buffBtns[choise].onClick.AddListener(delegate ()
                 {
-                    character.AddComponent<SpeedUp>();
+                    SpeedUp speedUp = character.AddComponent<SpeedUp>();
+                    Debug.Log("set power: "+speedUpPower);
+                    speedUp.power = speedUpPower;
                     destotyItself();
                 });
                 break;
@@ -150,12 +153,12 @@ public class PropPanel : MonoBehaviour
 
         public static void Active(Button b)
         {
-            b.gameObject.GetComponent<Image>().color = Color.white;
+            b.gameObject.GetComponent<Image>().color = b.colors.normalColor;
         }
 
         public static bool IsActive(Button b)
         {
-            return b.gameObject.GetComponent<Image>().color.Equals(Color.white);
+            return b.gameObject.GetComponent<Image>().color.Equals(b.colors.normalColor);
         }
     }
 }

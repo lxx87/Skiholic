@@ -10,6 +10,7 @@ public class SpeedUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("use power: " + power);
         Rigidbody2D rigi = GetComponent<Rigidbody2D>();
         Vector2 direction = rigi.velocity.normalized;
         if (direction.x < 0)
