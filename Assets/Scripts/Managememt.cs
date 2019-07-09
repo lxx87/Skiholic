@@ -66,7 +66,6 @@ public class Managememt : MonoBehaviour
 
     private void pauseHomeBGM()
     {
-        Debug.Log("1111");
         HomeBGM.instance.gameObject.GetComponent<AudioSource>().Pause();
     }
 

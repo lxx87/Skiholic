@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 749699952501894058}
   m_Layer: 8
   m_Name: LinePrefab
-  m_TagString: Untagged
+  m_TagString: bridge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,7 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
 --- !u!68 &749699952501894058
 EdgeCollider2D:
